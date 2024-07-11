@@ -42,7 +42,7 @@ const getRandomInteger = (a,b) => {
   const lower = Math.ceil(Math.min(a,b));
   const upper = Math.floor(Math.max(a,b));
   const result = Math.random() * (upper - lower + 1) + lower;
-  return result;
+  return Math.floor(result);
 };
 const getRandomArrayElement = (items) =>
   items[getRandomInteger(0,items.length - 1)];
@@ -89,5 +89,6 @@ const getPictures = ()=> Array.from(
 );
 
 getPictures();
+
 
 console.log(getPictures());
