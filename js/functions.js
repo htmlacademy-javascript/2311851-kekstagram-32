@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 const checkStringLength = function(string,length){
   if(string.length <= length){
     return true;
@@ -7,6 +8,7 @@ const checkStringLength = function(string,length){
 };
 
 
+// eslint-disable-next-line no-unused-vars
 const isPalindrome = function(string){
   string = string.toLowerCase().replaceAll(' ','');
   let newString = '';
