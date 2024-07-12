@@ -91,4 +91,5 @@ const getPictures = ()=> Array.from(
 getPictures();
 
 
+// eslint-disable-next-line no-console
 console.log(getPictures());
