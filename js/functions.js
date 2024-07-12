@@ -1,3 +1,4 @@
+
 const checkStringLength = function(string,length){
   if(string.length <= length){
     return true;
@@ -5,6 +6,7 @@ const checkStringLength = function(string,length){
     return false;
   }
 };
+
 
 const isPalindrome = function(string){
   string = string.toLowerCase().replaceAll(' ','');
